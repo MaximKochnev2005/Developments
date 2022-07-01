@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Custom player</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-scrollbar@latest/simple-scrollbar.css">
+    <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+<body>
+
+<div class="container-player">
+    <img src="https://wallpaperaccess.com/full/21593.jpg" />
+    <div class="html-player dark" data-continue="off" data-video-id="1">
+        <div class="name-bar">
+            <div class="w-100">
+                <div class="dropdown">
+                    <ul class="bottom" id="nado">
+                        <li data-event="change-voice-acting" data-audio-url="./assets/audio/audio2_1.mp3" data-voice="@Hell1"></li>
+                        <li data-event="change-voice-acting" data-audio-url="./assets/audio/audio2_2.mp3" data-voice="@Hell2"></li>
+                    </ul>
+                    <button id="nado" data-event="settings">Озвучка &nbsp;&nbsp;<i class="fal fa-chevron-down"></i></button>
+                        <div class="select-box">
+                            <div class="options-container">
+                                <div class="option">
+                                    <input
+                                            type="radio"
+                                            class="radio"
+                                            id="automobiles"
+                                            name="category"
+                                    />
+                                    <label for="automobiles"><li data-event="change-voice-acting" data-audio-url="./assets/audio/audio2_1.mp3" data-voice="@Hell1">AniDub</li></label>
+                                </div>
+                                <div class="option">
+                                    <input type="radio" class="radio" id="film" name="category" />
+                                    <label for="film"><li data-event="change-voice-acting" data-audio-url="./assets/audio/audio2_2.mp3" data-voice="@Hell2">AniLibria</li></label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="science" name="category" />
+                                    <label for="science">Студийная банда</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="art" name="category" />
+                                    <label for="art">SHIZA Project</label>
+                                </div>
+                            </div>
+
+                            <div class="selected">
+                                Озвучка
+                            </div>
+                        </div>
+                </div>
+
+                <div class="dropdown">
+                    <ul class="bottom" id="nado">
+                        <li data-event="change-series" data-video-id="1" data-video-url="./assets/video/video2.mp4" data-video-type="video/mp4" data-audio-url="./assets/audio/audio2_1.mp3" data-autoplay="on" data-name="Наименование - 1 серия" data-voice="@ByHell"></li>
+                        <li data-event="change-series" data-video-id="2" data-video-url="./assets/video/video2.mp4" data-video-type="video/mp4" data-audio-url="./assets/audio/audio2_1.mp3" data-autoplay="on" data-name="Наименование - 2 серия" data-voice="@ByHell">2 серия</li>
+                        <li data-event="change-series" data-video-id="3" data-video-url="./assets/video/video2.mp4" data-video-type="video/mp4" data-audio-url="./assets/audio/audio2_1.mp3" data-autoplay="on" data-name="Наименование - 3 серия" data-voice="@ByHell">3 серия</li>
+                        <li data-event="change-series" data-video-id="4" data-video-url="./assets/video/video2.mp4" data-video-type="video/mp4" data-audio-url="./assets/audio/audio2_1.mp3" data-autoplay="on" data-name="Наименование - 4 серия" data-voice="@ByHell">4 серия</li>
+                    </ul>
+                    <button id="nado" data-event="settings">Список серий &nbsp;&nbsp;<i class="fal fa-chevron-down"></i></button>
+                    <div class="select-box2">
+                        <div class="options-container2">
+                            <div class="option2">
+                                <input
+                                        type="radio"
+                                        class="radio"
+                                        id="automobiles2"
+                                        name="category2"
+                                />
+                                <label for="automobiles2"><li data-event="change-series" data-video-id="1" data-video-url="./assets/video/video2.mp4" data-video-type="video/mp4" data-audio-url="./assets/audio/audio2_1.mp3" data-autoplay="on" data-name="Наименование - 1 серия" data-voice="@ByHell">1 серия</li></label>
+                            </div>
+
+                            <div class="option2">
+                                <input type="radio" class="radio" id="film2" name="category2" />
+                                <label for="film2"><li data-event="change-series" data-video-id="2" data-video-url="./assets/video/video2.mp4" data-video-type="video/mp4" data-audio-url="./assets/audio/audio2_1.mp3" data-autoplay="on" data-name="Наименование - 2 серия" data-voice="@ByHell">2 серия</li></label>
+                            </div>
+
+                            <div class="option2">
+                                <input type="radio" class="radio" id="science2" name="category2" />
+                                <label for="science2"><li data-event="change-series" data-video-id="3" data-video-url="./assets/video/video2.mp4" data-video-type="video/mp4" data-audio-url="./assets/audio/audio2_1.mp3" data-autoplay="on" data-name="Наименование - 3 серия" data-voice="@ByHell">3 серия</li></label>
+                            </div>
+
+                            <div class="option2">
+                                <input type="radio" class="radio" id="art2" name="category2" />
+                                <label for="art2"><li data-event="change-series" data-video-id="4" data-video-url="./assets/video/video2.mp4" data-video-type="video/mp4" data-audio-url="./assets/audio/audio2_1.mp3" data-autoplay="on" data-name="Наименование - 4 серия" data-voice="@ByHell">4 серия</li></label>
+                            </div>
+                        </div>
+
+                        <div class="selected2">
+                            Серия
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="buttons-icon">
+                <div class="dropdown">
+                    <ul class="bottom" id="social-share" style="left: -350%;">
+                    </ul>
+                    <button data-event="share"><i class="fal fa-share"></i></i></button>
+                </div>
+
+                <div class="dropdown show">
+                    <button data-event="playlist-show-hide"><img src="./assets/img/icons/sidebar.svg" width="15" /></i></i></button>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="name-bar">
+            <span data-set="name">Наименование - 1 серия</span>
+            <span data-set="voice">@ByHell</span>
+        </div> -->
+
+        <button data-event="play" class="play"><i class="fal fa-play"></i></button>
+
+        <div class="video">
+            <video>
+                <source src="./assets/video/video2.mp4" type="video/mp4">
+            </video>
+            <audio src="./assets/audio/audio2_1.mp3"></audio>
+        </div>
+
+        <!-- <div class="continue-screen">
+            <span>Вы остановились на 00:02:20 хотите продолжить просмотр?</span>
+            <div class="buttons">
+                <button data-event="continue-screen" data-time="140">Продолжить</button>
+                <button data-event="continue-screen" data-time="0">Начать с начала</button>
+            </div>
+        </div> -->
+
+        <span class="continue-screen">Вы остановились на 32 серии хотите продолжить? <a href="#" data-event="continue-screen" data-time="140">Да</a> <a href="#" data-event="continue-screen" data-time="0">Нет</a></span>
+
+        <button class="skip-screen" data-event="skip-screen" data-time-sec="140">Пропустить заставку</button>
+
+        <div class="event-line">
+            <button data-event="play"><i class="fal fa-play"></i></button>
+
+            <div class="dropdown">
+                <div class="volume">
+                    <div class="volume-track" data-event="vol-video">
+                        <div class="volume-cursor" data-event="vol-cursor"></div>
+                    </div>
+                </div>
+                <button data-event="settings"><i class="fal fa-volume"></i></button>
+            </div>
+
+            <span class="time" data-event="current_time">00:00</span>
+
+            <div class="track-line">
+                <div class="progress-line" data-event="line_video">
+                    <div class="cursor-line" data-event="rewind"></div>
+                </div>
+            </div>
+
+            <span class="time" data-event="duration_time">1:11:23</span>
+
+            <div class="dropdown">
+                <ul style="width: 170px">
+                    <div class="Quality">
+
+                    </div>
+                    <div class="li-with-checkbox" style="display: flex">
+                        <input type="checkbox" id="one" style="margin-top:10px"/>
+                        <li data-event="autoplay-series" style="margin-left: -10px">Включить автовоспроизведение</li>
+                    </div>
+                    <div style="display: flex">
+                        <input type="checkbox" id="two" style="margin-top:10px"/>
+                        <li data-event="autoskip-series" style="margin-left: -10px"> Включить пропуск заставки</li>
+                    </div>
+                    <li data-event="pic-in-pic">
+                        <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 0C19.2652 0 19.5196 0.0995036 19.7071 0.276621C19.8946 0.453739 20 0.693962 20 0.944444V7.55556H18V1.88889H2V15.1111H8V17H1C0.734784 17 0.48043 16.9005 0.292893 16.7234C0.105357 16.5463 0 16.306 0 16.0556V0.944444C0 0.693962 0.105357 0.453739 0.292893 0.276621C0.48043 0.0995036 0.734784 0 1 0H19ZM19 9.44444C19.2652 9.44444 19.5196 9.54395 19.7071 9.72107C19.8946 9.89818 20 10.1384 20 10.3889V16.0556C20 16.306 19.8946 16.5463 19.7071 16.7234C19.5196 16.9005 19.2652 17 19 17H11C10.7348 17 10.4804 16.9005 10.2929 16.7234C10.1054 16.5463 10 16.306 10 16.0556V10.3889C10 10.1384 10.1054 9.89818 10.2929 9.72107C10.4804 9.54395 10.7348 9.44444 11 9.44444H19ZM18 11.3333H12V15.1111H18V11.3333Z" fill="white"/>
+                        </svg>Картинка в картинке</li>
+                </ul>
+                <button data-event="settings"><i class="fal fa-cog"></i></button>
+            </div>
+
+            <button data-event="fullscreen"><i class="fal fa-expand"></i></button>
+        </div>
+
+    </div>
+    <div class="playlist" style="display: block;">
+        <div class="name">
+            Всего серий 4
+        </div>
+
+        <!-- <button class="circle" event="show_hide_playlist">
+            <i class="fal fa-chevron-right"></i>
+        </button> -->
+
+        <div class="items" ss-container>
+            <div class="item" data-video-id="1" data-video-url="./assets/video/video2.mp4" data-video-type="video/mp4" data-audio-url="./assets/audio/audio2_1.mp3" data-autoplay="on" data-name="Наименование - 1 серия" data-voice="@ByHell">
+                <div class="image">
+                    <img src="https://bloody-disgusting.com/wp-content/uploads/2020/10/high-rise-invasion-trailer.png" />
+                </div>
+                <span>Наименование - 1 серия</span>
+            </div>
+
+            <div class="item" data-video-id="2" data-video-url="./assets/video/video2.mp4" data-video-type="video/mp4" data-audio-url="./assets/audio/audio2_2.mp3" data-name="Наименование - 2 серия" data-voice="@ByHell1">
+                <div class="image">
+                    <img src="https://bloody-disgusting.com/wp-content/uploads/2020/10/high-rise-invasion-trailer.png" />
+                </div>
+                <span>Наименование - 2 серия</span>
+            </div>
+
+            <div class="item" data-video-id="3" data-video-url="./assets/video/video2.mp4" data-video-type="video/mp4" data-audio-url="./assets/audio/audio2_1.mp3" data-name="Наименование - 3 серия" data-voice="@ByHell2">
+                <div class="image">
+                    <img src="https://bloody-disgusting.com/wp-content/uploads/2020/10/high-rise-invasion-trailer.png" />
+                </div>
+                <span>Наименование - 3 серия</span>
+            </div>
+
+            <div class="item" data-video-id="4" data-video-url="./assets/video/video2.mp4" data-video-type="video/mp4" data-audio-url="./assets/audio/audio2_2.mp3" data-name="Наименование - 4 серия" data-voice="@ByHell4">
+                <div class="image">
+                    <img src="https://bloody-disgusting.com/wp-content/uploads/2020/10/high-rise-invasion-trailer.png" />
+                </div>
+                <span>Наименование - 4 серия</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/simple-scrollbar@latest/simple-scrollbar.min.js"></script>
+
+<script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+<script src="https://yastatic.net/share2/share.js"></script>
+
+<script>
+    const selected = document.querySelector(".selected");
+    const optionsContainer = document.querySelector(".options-container");
+    const optionsList = document.querySelectorAll(".option");
+
+    selected.addEventListener("click", () => {
+        optionsContainer.classList.toggle("active");
+    });
+
+    optionsList.forEach(o => {
+        o.addEventListener("click", () => {
+            selected.innerHTML = o.querySelector("label").innerHTML;
+            optionsContainer.classList.remove("active");
+        });
+    });
+</script>
+<script>
+    const selected2 = document.querySelector(".selected2");
+    const optionsContainer2 = document.querySelector(".options-container2");
+    const optionsList2 = document.querySelectorAll(".option2");
+
+    selected2.addEventListener("click", () => {
+        optionsContainer2.classList.toggle("active");
+    });
+
+    optionsList2.forEach(o => {
+        o.addEventListener("click", () => {
+            selected2.innerHTML = o.querySelector("label").innerHTML;
+            optionsContainer2.classList.remove("active");
+        });
+    });
+</script>
+<script>
+    let myShare = document.getElementById('social-share');
+
+    let share = Ya.share2(myShare, {
+        content: {
+            url: 'https://yandex.com'
+        }
+        // здесь вы можете указать и другие параметры
+    });
+</script>
+
+<script src="./assets/js/player.js"></script>
+
+</body>
+</html>
