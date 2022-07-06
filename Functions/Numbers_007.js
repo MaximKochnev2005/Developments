@@ -21,5 +21,6 @@ function Sort(mas) {
         console.log(false)
         return false
     }
+
 }
-Sort([/*вам массив*/])
+Sort([/*ваш массив*/])
