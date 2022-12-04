@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Иннополис работа Свечиной Л.В.">
+        <meta name="author" content="Lybov Svechina">
+        <title>Мой проект</title>
+		<link rel="icon" href="assets/favicon/favicon.ico" type="any">
+		<link rel="icon" href="assets/favicon/favicon.svg" type="image/svg+xml">
+		<link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/ads.css">
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+        <script src="assets/js/page-product.js"></script>
+		<script src="assets/js/page-product-oop.js"></script>
+    </head>
+    <body>
+       <!-- <div class="ticker">
+			<marquee>Иннополис работа Свечиной Л.В.</marquee>
+		</div>-->
+
+		<!-- Шапка сайта -->
+        <header class="heder">
+				<div class="heder__fixed">
+					<div class="container">
+					<div class="logo">
+					  <a class="logo__contaner" href="#">
+					  <div class="logo__img">
+					  <img src="./assets/img/logo.png" alt="Иконка сайта">
+					  </div>
+						<button class="logo__logo logo-position"><span class="mask">мoй маркет</span></button>
+					  </a>
+					</div>
+					<button class="heder__like"><span class="mask">добавить в избранное</span></button>
+					<button class="heder__card"><span class="mask">добавить в корзину</span></button>
+					<div class="heder__counter_nambur heder__like-counter_position">12</div>
+					<div class="heder__counter_nambur heder__card-counter_position hide"></div>
+					</div>
+				</div>
+		</header>
+
+		<!-- Шапка сайта конец -->
+		<!-- Навигация -->
+
+		<!-- Навигация конец -->
+		<!-- Основной контент -->
+        <main>
+		<div class="box">
+			<!-- Хлебные крошки -->
+			<nav class="breadcrumbs">
+				<a class="breadcrumbs__link link" href="index.html">Электроника</a>
+				<span class="breadcrumbs__separator">&gt; </span>
+				<a class="breadcrumbs__link link" href="index.html">Смартфоны и гаджеты</a>
+				<span class="breadcrumbs__separator">&gt; </span>
+				<a class="breadcrumbs__link link" href="index.html">Мобильные телефоны</a>
+				<span class="breadcrumbs__separator">&gt; </span>
+				<a class="breadcrumbs__link link" href="index.html">Apple</a>
+			  </nav>
+			<!-- Хлебные крошки конец -->
+			<!-- Краткое описание товара -->
+			<h1 class="box__main-name main-name">Смартфон Apple iPhone</h1>
+            <section class="box__gallery gallery">
+				<img class="box__gallery-img"src="./assets/img/image-1.webp" alt="Вид спереди(приорететный) и сзади">
+				<img class="box__gallery-img"src="./assets/img/image-2.webp" alt="Вид экрана">
+				<img class="box__gallery-img"src="./assets/img/image-3.webp" alt="Вид с полубока">
+				<img class="box__gallery-img"src="./assets/img/image-4.webp" alt="Крупный план трех камер">
+				<img class="box__gallery-img"src="./assets/img/image-5.webp" alt="Вид спереди и сзади (приоритетный)">
+			</section>
+            <div class="grid">
+				<div class="grid__column grid__column_rate">
+				<section class="colors">
+					<h2 class="colors__title">Цвет товара: cиний</h2>
+					<div class="colors__wrapper">
+						<button class="colors__button"><img src="assets/img/color-1.png" alt="Красный"></button>
+						<button class="colors__button"><img src="assets/img/color-2.png" alt="Зеленый"></button>
+						<button class="colors__button"><img src="assets/img/color-3.png" alt="Розовый"></button>
+						<button class="colors__button_maket colors__button "><img src="assets/img/color-4.png" alt="Синий"></button>
+						<button class="colors__button"><img src="assets/img/color-5.png" alt="Белый"></button>
+						<button class="colors__button"><img src="assets/img/color-6.png" alt="Черный"></button>
+					</div>
+				</section>
+
+				<section class="memory">
+					<h2 class="memory__title">Конфигурация памяти: 128</h2>
+					<div class="memory__wrapper">
+					  <button class="memory__button memory__button_maket">128 ГБ</button>
+					  <button class="memory__button">256 ГБ</button>
+					  <button class="memory__button">512 ГБ</button>
+					</div>
+				</section>
+
+				<section class="properties">
+					<h2 class="properties__title">Характеристики товара</h2>
+					<ul class="properties__list ">
+					  <li class="properties__item">Экран:
+					  <b class= "properties__item_text_bold">6.1</b> </li>
+					  <li class="properties__item">Встроенная память:
+					  <b class= "properties__item_text_bold">128 ГБ</b> </li>
+					  <li class="properties__item">Операционная система:
+					  <b class= "properties__item_text_bold"> 15</b> </li>
+					  <li class="properties__item">Беспроводные интерфейсы:
+					  <b class= "properties__item_text_bold">NFC, Bluetooth, Wi-F</b> </li>
+					  <li class="properties__item">Процессор:
+					  <b class= "properties__item_text_bold">
+					  <a class= "properties-list__link link" href="https://ru.wikipedia.org/wiki/Apple_A15l" target="_blank">Apple A15 Bionic</a></b></li>
+					  <li class="properties__item">Вес:
+					  <b class= "properties__item_text_bold">173 г</b></li>
+					</ul>
+				</section>
+				<!-- Краткое описание товара конец -->
+				  <!-- Секция Полного описания - отзывы -->
+				  <section class="description">
+					  <h2 class="description__title">Описание</h2>
+					  <p class="description__list">Наша самая совершеsssнная система двух камер.<br>
+						Особый взгляд на прочность дисплея.<br>
+						Чип, с которым всё супербыстро.<br>
+						Аккумулятор держится заметно дольше.<br>
+					  <i>iPhone 13 - сильный мира всего.</i></p>
+					  <p class="description__list">Мы разработали совершенно новую схему расположения и развернули объективы на 45 градусов. Благодаря этому внутри корпуса поместилась наша лучшая система двух камер с увеличенной матрицей широкоугольной камеры. Кроме того, мы освободили место для системы оптической стабилизации изображения co сдвигом матрицы. И повысили скорость работы матрицы на сверхширокоугольной камере.</p>
+					  <p class="description__list">Новая сверхширокоугольная камера видит больше деталей в тёмных областях снимков. Новая широкоугольная камера улавливает на 47% больше света для более качественных фотографий и видео. Новая оптическая стабилизация со сдвигом матрицы обеспечит чёткие кадры даже в неустойчивом положении.</p>
+					  <p class="description__list">Новая сверхширокоугольная камера видит больше деталей в тёмных областях снимков. Новая широкоугольная камера улавливает на 47% больше света для более качественных фотографий и видео. Новая оптическая стабилизация со сдвигом матрицы обеспечит чёткие кадры даже в неустойчивом положении.</p>
+					  <p class="description__list">Режим «Киноэффект» автоматически добавляет великолепные эффекты перемещения фокуса и изменения резкости. Просто начните запись видео. Режим «Киноэффект» будет удерживать фокус на объекте съёмки, создавая красивый эффект размытия во круг него. Режим «Киноэффект» распознаёт, когда нужно перевести фокус на другого человека или объект, который появился в кадре. Теперь ваши видео будут смотреться как настоящее кино.</p>
+				  </section>
+
+				  <section class="model-comparison">
+					<h2 class="model-comparison__title">Сравнение моделей</h2>
+
+					<table class="model-comparison__border">
+					  <thead>
+						<tr class="model-comparison__border_border">
+						  <th>Модель</th>
+						  <th>Вес</th>
+						  <th>Высота</th>
+						  <th>Ширина</th>
+						  <th>Толщина</th>
+						  <th>Чип</th>
+						  <th>Объём памяти</th>
+						  <th>Аккумулятор</th>
+						</tr>
+					  </thead>
+					  <tbody>
+						  <tr>
+							<td>Iphone11</td>
+							<td>194 грамма</td>
+							<td>150.9 мм</td>
+							<td>75.7 мм</td>
+							<td>8.3 мм</td>
+							<td>A13 Bionicchip</td>
+							<td>до 128 Гб</td>
+							<td>До 17 часов</td>
+						  </tr>
+						  <tr>
+							<td>Iphone12</td>
+							<td>164 грамма</td>
+							<td>146.7 мм</td>
+							<td>71.5 мм</td>
+							<td>7.4 мм</td>
+							<td>A14 Bionicchip</td>
+							<td>до 256 Гб</td>
+							<td>До 19 часов</td>
+						  </tr>
+						  <tr class="model-comparison__border_buttom ">
+							<td>Iphone13</td>
+							<td>174 грамма</td>
+							<td>146.7 мм</td>
+							<td>71.5 мм</td>
+							<td>7.65 мм</td>
+							<td>A15 Bionicchip</td>
+							<td>до 512 Гб</td>
+							<td>До 19 часов</td>
+						  </tr>
+					  </tbody>
+					</table>
+				  </section>
+
+				  <div class="reviews">
+					<div class="reviews__title">
+					  <div class="reviews__line">
+						<h2 class="reviews__name">Отзывы</h2>
+						<span class="reviews__line_color_gray">425</span>
+					  </div>
+
+					</div>
+					<div class="reviews-list">
+					  <div class="reviews-box">
+						<div class="reviews-text">
+						  <div class="reviews-text__head">
+							<div class="reviews-text__name">Марк Г.</div>
+							<div class="reviews-text__stars">
+								<i class="fa fa-star reviews-text__stars_plus" aria-hidden="true"></i>
+								<i class="fa fa-star reviews-text__stars_plus" aria-hidden="true"></i>
+								<i class="fa fa-star reviews-text__stars_plus" aria-hidden="true"></i>
+								<i class="fa fa-star reviews-text__stars_plus" aria-hidden="true"></i>
+								<i class="fa fa-star reviews-text__stars_plus" aria-hidden="true"></i>
+							</div>
+						  </div>
+
+						  <div class="info">
+							<div class="info__user"><b>Опыт использования:</b>
+							менее месяца
+							</div>
+							<div class="info__worth"><b>Достоинства:</b>
+							<br>Это мой первый айфон после после огромного количества телефонов на андроиде.
+							всёплавно, чётко и красиво. довольно шустрое устройство. камера весьма неплохая,
+							ширик тоже на высоте.
+							</div>
+							<div class="info__user"><b>Недостатки:</b>
+							<br>к самому устройству мало имеет отношение, но перенос данных с андроида - адскаявещь)
+							а если нужно переносить фото с компа, то это только через itunes,
+							который урезает качество фотографий исходное
+							</div>
+						  </div>
+
+						</div>
+						<div class="review__img "><img class="img__border"  src="assets/img/review-1.jpeg" alt="Фто пользователя Марк Г."></div>
+					  </div>
+
+					  <div class="reviews-box_border_none reviews-box ">
+						<div class="reviews-text">
+						  <div class="reviews-text__head">
+							<div class="reviews-text__name">Валерий Коваленко</div>
+							<div class="reviews-text__stars">
+								<i class="fa fa-star reviews-text__stars_plus" aria-hidden="true"></i>
+								<i class="fa fa-star reviews-text__stars_plus" aria-hidden="true"></i>
+								<i class="fa fa-star reviews-text__stars_plus" aria-hidden="true"></i>
+								<i class="fa fa-star reviews-text__stars_plus" aria-hidden="true"></i>
+								<i class="fa fa-star reviews-text__stars_null" aria-hidden="true"></i>
+							</div>
+						  </div>
+							<div class="info">
+							  <div class="info__user"><b>Опыт использования:</b>
+							  менее месяца</div>
+							  <div class="info__worth"><b>Достоинства:</b>
+							  <br>OLED экран, Дизайн, Система камер, Шустрый А15, Заряд держит долго</div>
+							  <div class="info__user"><b>Недостатки:</b>
+							  <br>Плохая ремонтопригодность</div>
+							</div>
+						</div>
+						<div class="review__img"><img class="img__border"  src="assets/img/review-2.jpeg" alt="Фто пользователя Валерий Кваленко"></div>
+					  </div>
+					</div>
+				  </div>
+
+					<section class="review-form-enter">
+					  <h2 class="review-form__title">Добавить свой отзыв</h2>
+					  <form action="form" class="form" id="review-form" name="review_form">
+						<div class="form__row">
+							<div class="form__input_wrap">
+								<input class="form__item form__name" type="text" name="name" placeholder="Имя и Фамилия">
+							</div>
+							<div class="form__input_wrap">
+								<input class="form__item form__rating" type="number" min="1" max="5"  name="rating" placeholder="Оценка">
+							</div>
+						</div>
+						<div class="review-text">
+						  <textarea class="form__item form__review" placeholder="Текст отзыва" name="text"></textarea>
+						  <button type="submit" class="review-text__basket_buttom">Отправить отзыв</button>
+						</div>
+
+					  </form>
+					</section>
+
+				</div>
+				<div class="grid__column grit__column_sidbar">
+				<aside>
+				  <div class="price-tag">
+					<div class="price-tag__old-prise">75 990₽</div>
+					<span class="price-tag__discont">-8</span>
+					<button class="price-tag__like"><span class="mask">добавить в избранное</span></button>
+					<div class="price-tag__new-prise"> 67 990₽</div>
+					<p>Самовывоз в четверг, 1 сентября—<strong>бесплатно</strong></p>
+					<p>Курьером в четверг, 1 сентября—<strong>бесплатно</strong></p>
+					<button class="price-tag__basket_buttom" data-product="1">Добaвить в кoрзину</button>
+				  </div>
+				  <h3 class="advertising">
+					Реклама
+				  </h3>
+					<iframe class="advertising__select-iframe" src="ads.html" ></iframe>
+					<iframe class="advertising__select-iframe" src="ads.html" ></iframe>
+				</aside>
+				</div>
+			  </div>
+		<!-- Секция Полного описания - отзывы конец -->
+		</main>
+		</div>
+	</body>
+	<!-- Подвал -->
+	<footer class="footer">
+		<div class="footer-contaner">
+		  <span class="footer-contaner__copyright"><b>&copy;ООО «</b><span style="color:#f52"><b>Мой</b></span><b>Маркет», 2018-2022.</b>
+		  <br> Для уточненияинформации звоните по номеру <a href="tel:+79000000000"> +7 900 000 0000</a>,
+		  <br>а предложения по сотрудничеству отправляйте на почту  <a href="mailto:partner@mymarket.com">partner@mymarket.com</a></span>
+		  <div class="footer-contaner__href">
+			<a href="#">Наверх</a>
+		  </div>
+		</div>
+	  </footer>
+	<!-- Подвал конец -->
+</html>

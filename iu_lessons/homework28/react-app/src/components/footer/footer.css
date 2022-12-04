@@ -1,0 +1,49 @@
+.footer {
+    margin: 0 auto;
+    padding: 0 50px;
+    background: #F2F2F2;
+}
+.footer-contaner {
+    display: flex;
+    font-weight: 400;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.footer-contaner__copyright {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.footer-contaner__href {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+}
+
+.form__input_wrap {
+    position: relative;
+}
+
+input.input_with_error {
+    border: 1px solid #DA4A0C;
+}
+.input_error_text {
+    display: block;
+    width: 100%;
+    padding: 8px 20px;
+    color: #fff;
+    background: #DA4A0C;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 15px;
+    position: absolute;
+}
+
+.my {
+    color:#f52
+}
